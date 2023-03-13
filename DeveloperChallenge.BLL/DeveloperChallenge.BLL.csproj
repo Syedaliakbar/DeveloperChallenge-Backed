@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DeveloperChallenge.BLLContacts\DeveloperChallenge.BLLContacts.csproj" />
+    <ProjectReference Include="..\DeveloperChallenge.DLL\DeveloperChallenge.DLL.csproj" />
+    <ProjectReference Include="..\Processors\Processors.csproj" />
+    <ProjectReference Include="..\Shared\Shared.csproj" />
+  </ItemGroup>
+
+</Project>
